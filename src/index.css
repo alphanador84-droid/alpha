@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-studio-bg: #0a0a0a;
+  --color-studio-panel: #1a1a1a;
+  --color-studio-accent: #ff4e00; /* Energetic YouTuber Orange */
+  --color-studio-border: #2a2a2a;
+}
+
+@layer base {
+  body {
+    @apply bg-studio-bg text-white font-sans;
+  }
+}
+
+/* Custom scrollbar for that desktop studio feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-studio-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-studio-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-studio-accent);
+}

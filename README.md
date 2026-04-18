@@ -1,11 +1,48 @@
-<div align="center">
+# Fusha YouTuber Studio 🎙️
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Eloquent Arabic Speech Studio powered by Gemini 3.1 Flash TTS.
 
-  <h1>Built with AI Studio</h2>
+## 🚀 Quick Start (Local Development)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+This project is open-source. You can run it on your own machine by following these steps:
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+### 1. Prerequisites
+- **Node.js** (v18 or higher)
+- **npm** or **yarn**
+- A **Gemini API Key** (Get one at [aistudio.google.com](https://aistudio.google.com/app/apikey))
 
-</div>
+### 2. Installation
+```bash
+# Clone the repository (or download the ZIP from AI Studio)
+# Navigate to the project folder
+npm install
+```
+
+### 3. Environment Setup
+Create a `.env` file in the root directory and add your API key:
+```env
+GEMINI_API_KEY=your_api_key_here
+```
+
+### 4. Run the App
+```bash
+npm run dev
+```
+The app will be available at `http://localhost:3000`.
+
+## 📦 How to Export from AI Studio
+To get the full source code from this environment:
+1. Open the **Settings** menu in the AI Studio sidebar.
+2. Select **Export to GitHub** or **Download ZIP**.
+3. You now have the full open-source codebase!
+
+## 🛠️ Tech Stack
+- **React 19** + **Vite**
+- **Tailwind CSS 4**
+- **Gemini 3.1 Flash TTS API**
+- **Framer Motion** (Animations)
+- **Lucide React** (Icons)
+- **Lamejs** (Client-side MP3 encoding)
+
+## 📜 License
+MIT License. Feel free to remix, build, and share!

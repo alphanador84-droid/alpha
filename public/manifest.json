@@ -1,0 +1,21 @@
+{
+  "name": "Fusha YouTuber Studio",
+  "short_name": "Fusha Studio",
+  "description": "Eloquent Arabic Speech Studio",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#ff4e00",
+  "icons": [
+    {
+      "src": "https://picsum.photos/seed/studio/192/192",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://picsum.photos/seed/studio/512/512",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
